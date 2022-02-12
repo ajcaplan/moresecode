@@ -8,7 +8,7 @@ class app(Frame):
         self.grid()
         self.create_widgets()
         
-    def create_widgets(self):
+    def create_widgets(self): # Set up GUI
         # Convert to Morse code
         self.detail = Label(self, text = "Letters to Morse Code:", borderwidth = 1, relief = "solid", padx = 3) # Section name
         self.detail.grid(row = 0, column = 0, columnspan = 2, sticky = W, padx = 3)
